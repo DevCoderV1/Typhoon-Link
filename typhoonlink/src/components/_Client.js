@@ -37,7 +37,7 @@ const Client = () => {
                 window.open("https://www.epicgames.com/store/en-US/");
               }}
             >
-              Steam Store
+              Epic Store
             </button>
           </div>
         </div>
@@ -93,7 +93,7 @@ const Client = () => {
                 window.open("https://www.blizzard.com/en-us/");
               }}
             >
-              Steam Store
+              Battle Store
             </button>
           </div>
         </div>
