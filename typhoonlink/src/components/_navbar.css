@@ -8,9 +8,9 @@ header {
   left: 0;
   min-height: 6vh;
   align-items: center;
-  margin: auto;
   background-color: var(--background);
   color: white;
+  z-index: 20;
 }
 
 .header_title,
@@ -49,8 +49,9 @@ header {
 }
 
 .nav_bars li a {
+  font-family: "Passion One", cursive;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .hamburger {
   display: none;
@@ -64,11 +65,14 @@ header {
 }
 
 @media only screen and (max-width: 600px) {
-  body {
+  .home_wrapper {
     overflow-x: hidden;
   }
+  .header_title {
+    flex: 2;
+  }
   .header_title h1 {
-    font-size: 1em;
+    font-size: 1.5em;
   }
   .nav_bar {
     position: absolute;
@@ -78,9 +82,9 @@ header {
     flex-direction: column;
     width: 100%;
     background-color: #33334d;
-    border-top: 1px solid white;
     transform: translateX(100%);
-    display: none;
+    text-align: center;
+    transition: transform 0.5s ease-out;
   }
   .nav_bars {
     position: absolute;
@@ -90,10 +94,10 @@ header {
     flex-direction: column;
     width: 100%;
     background-color: #33334d;
-    border-top: 1px solid white;
     transform: translateX(0%);
     overflow: hidden;
     text-align: center;
+    transition: transform 0.5s ease-in-out;
   }
   .hamburger {
     display: flex;

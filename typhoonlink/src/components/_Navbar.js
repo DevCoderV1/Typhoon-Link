@@ -22,10 +22,13 @@ const Navbar = () => {
           <Link to="">Home</Link>
         </li>
         <li>
-          <Link to="">Game Launcher</Link>
+          <Link to="/Client">Game Client</Link>
         </li>
         <li>
-          <Link to="">Sign In</Link>
+          <Link to="/">FAQ</Link>
+        </li>
+        <li>
+          <Link to="/Login">Sign In</Link>
         </li>
       </ul>
       <div onClick={OpenNavBar} className="hamburger">

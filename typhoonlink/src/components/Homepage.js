@@ -1,13 +1,12 @@
 import NavBar from "./_Navbar";
+import GameList from "./_GameList";
 import Footer from "./_Footer";
 
 const Homepage = () => {
   return (
-    <div>
+    <div className="home_wrapper">
       <NavBar />
-      <section className="intro_wrapper">
-        <p>Welcome to typhoon link</p>
-      </section>
+      <GameList />
       <Footer />
     </div>
   );

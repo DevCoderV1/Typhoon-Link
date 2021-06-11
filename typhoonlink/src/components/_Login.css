@@ -1,0 +1,60 @@
+.login_wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.login_container {
+  width: 30%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(160, 148, 148);
+  justify-content: space-evenly;
+  text-align: center;
+  margin: auto;
+}
+
+.login_container .form .form_input > * {
+  margin: 7px;
+}
+
+.form_input input {
+  font-size: 18px;
+  outline: none;
+  padding: 8px;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.form a {
+  font-size: 13px;
+  cursor: pointer;
+  color: white;
+}
+
+.form a:hover {
+  color: red;
+}
+
+.form .form_btn {
+  margin: 15px;
+}
+
+.form .form_btn button {
+  font-size: 16px;
+  padding: 8px;
+  font-family: var(--mainfont);
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--background);
+  color: white;
+  outline: none;
+}
+
+.form .form_btn button:hover {
+  background-color: white;
+  color: black;
+}
