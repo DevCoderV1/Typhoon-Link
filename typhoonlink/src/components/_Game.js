@@ -1,6 +1,12 @@
 import { useState } from "react";
 
-const Game = ({ game_id, game_title, game_image, game_description }) => {
+const Game = ({
+  game_id,
+  game_title,
+  game_image,
+  game_description,
+  game_url,
+}) => {
   const [show, setshow] = useState(false);
   return (
     <div className="game_wrapper">
@@ -13,7 +19,19 @@ const Game = ({ game_id, game_title, game_image, game_description }) => {
         <span>{game_title}</span>
         <div className={show ? "show_descriptions" : "no_show_descriptions"}>
           <p>{game_description}</p>
-          <button>View Game</button>
+          <div className="game_links">
+            {game_url.map((link, index) => (
+              <button
+                key={index}
+                onClick={() => {
+                  console.log(index);
+                  window.open(`${link}`);
+                }}
+              >
+                View Game
+              </button>
+            ))}
+          </div>
         </div>
       </div>
     </div>

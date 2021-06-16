@@ -12,7 +12,7 @@ const Login = () => {
   const Checkuser = (e) => {
     let EmailRegex =
       /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-
+    e.preventDefault();
     if (Email !== "" && Password !== "") {
       if (Email.match(EmailRegex)) {
         SetStatus("");

@@ -1,0 +1,29 @@
+:root {
+  --maincolor: white;
+  --mainfamily: "Cuprum", sans-serif;
+}
+
+.FAQ_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.FAQ_wrapper h1 {
+  text-align: center;
+  margin: 10px;
+  color: var(--maincolor);
+}
+
+.FAQ {
+  width: 60%;
+  padding: 0;
+  margin: 50px auto;
+  color: var(--maincolor);
+}
+.FAQ h2 {
+  margin: 10px 0;
+  font-family: var(--mainfamily);
+  font-size: 34px;
+}

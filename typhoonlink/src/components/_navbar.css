@@ -46,6 +46,7 @@ header {
 
 .nav_bars li {
   list-style: none;
+  position: relative;
 }
 
 .nav_bars li a {
@@ -99,6 +100,7 @@ header {
     text-align: center;
     transition: transform 0.5s ease-in-out;
   }
+
   .hamburger {
     display: flex;
     justify-content: center;

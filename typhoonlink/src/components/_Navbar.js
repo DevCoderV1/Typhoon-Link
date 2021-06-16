@@ -25,7 +25,7 @@ const Navbar = () => {
           <Link to="/Client">Game Client</Link>
         </li>
         <li>
-          <Link to="/">FAQ</Link>
+          <Link to="/FAQ">FAQ</Link>
         </li>
         <li>
           <Link to="/Login">Sign In</Link>
