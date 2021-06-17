@@ -23,7 +23,6 @@ body {
   grid-template-columns: repeat(auto-fill, 300px);
   justify-content: space-between;
   justify-content: center;
-  width: 80%;
   margin: auto;
 }
 
@@ -69,18 +68,6 @@ body {
   color: black;
 }
 
-.show_descriptions::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  opacity: 0.4;
-  z-index: -1;
-}
-
 .no_show_descriptions {
   position: absolute;
   top: 0;
@@ -104,4 +91,14 @@ body {
   font-size: 20px;
   color: white;
   font-family: "Cuprum", sans-serif;
+}
+@media only screen and (max-width: 600px) {
+  .gamelist_wrapper {
+    grid-template-columns: repeat(auto-fill, 200px);
+  }
+  .game img {
+    height: 250px;
+  }
+  .game span {
+  }
 }
