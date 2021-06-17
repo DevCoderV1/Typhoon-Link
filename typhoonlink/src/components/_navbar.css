@@ -68,7 +68,9 @@ header {
 @media only screen and (max-width: 600px) {
   .home_wrapper,
   .game_wrapper,
-  .client_wrapper {
+  .client_wrapper,
+  .login_wrapper,
+  .FAQ_wrapper {
     overflow-x: hidden;
   }
   .header_title {
