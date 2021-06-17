@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./_navbar.css";
 const Navbar = () => {
@@ -12,6 +12,14 @@ const Navbar = () => {
     }
     setOpen(!isOpen);
   };
+
+  useEffect(() => {
+    window.onbeforeunload = function () {
+      window.scrollTo(0, 0);
+    };
+    setOpen(true);
+    document.body.style.overflow = "visible";
+  }, []);
   return (
     <header>
       <div className="header_title">
