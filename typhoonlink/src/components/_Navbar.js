@@ -27,7 +27,7 @@ const Navbar = () => {
       </div>
       <ul className={isOpen ? "nav_bar" : "nav_bars"}>
         <li>
-          <Link to="">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
           <Link to="/Client">Game Client</Link>

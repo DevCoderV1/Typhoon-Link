@@ -5,7 +5,7 @@ const FAQ = () => {
   return (
     <div className="FAQ_wrapper">
       <NavBar />
-      <h1>Frequently Asked Questions</h1>
+      <h1 style={{ marginTop: "10px" }}>Frequently Asked Questions</h1>
       <div className="FAQ_container">
         <div className="FAQ">
           <h2>
