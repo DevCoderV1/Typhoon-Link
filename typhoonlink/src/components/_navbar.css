@@ -6,11 +6,12 @@ header {
   position: sticky;
   top: 0;
   left: 0;
+  height: 100%;
   min-height: 6vh;
   align-items: center;
   background-color: var(--background);
   color: white;
-  z-index: 20;
+  z-index: 10;
 }
 
 .header_title,
