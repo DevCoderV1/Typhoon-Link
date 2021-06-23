@@ -24,6 +24,7 @@ body {
   justify-content: space-between;
   justify-content: center;
   margin: auto;
+  width: 80%;
 }
 
 .game {
@@ -95,6 +96,7 @@ body {
 @media only screen and (max-width: 600px) {
   .gamelist_wrapper {
     grid-template-columns: repeat(auto-fill, 200px);
+    width: 100%;
   }
   .game img {
     height: 250px;

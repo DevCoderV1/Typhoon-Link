@@ -12,8 +12,8 @@ const FAQ = () => {
             <strong>1. What is Typhoon Link?</strong>
           </h2>
           <p>
-            Typhoon Link is a website to show the most popular games for PC and
-            Mac.
+            Typhoon link is a website designed for user to explore and know
+            what's the latest game released for PC.
           </p>
         </div>
         <div className="FAQ">
@@ -21,26 +21,9 @@ const FAQ = () => {
             <strong>2. Why is Typhoon Link created?</strong>
           </h2>
           <p>
-            Typhoon Link is a website to show the most popular games for PC and
-            Mac.
-          </p>
-        </div>
-        <div className="FAQ">
-          <h2>
-            <strong>3. Why's the login page not working?</strong>
-          </h2>
-          <p>
-            Typhoon Link is a website to show the most popular games for PC and
-            Mac.
-          </p>
-        </div>
-        <div className="FAQ">
-          <h2>
-            <strong>3. Why's the login page not working?</strong>
-          </h2>
-          <p>
-            Typhoon Link is a website to show the most popular games for PC and
-            Mac.
+            Typhoon Link is just a simple website I created to practice my web
+            design skills to gain more experiences and hope company are
+            interested in my creativity.
           </p>
         </div>
       </div>
